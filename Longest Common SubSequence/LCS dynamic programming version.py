@@ -1,6 +1,5 @@
 
-
-#dynamic programming 
+#dynamic programming  LCS
 # Set Maximum Length Of string
 N = 100
 L = [[0 for i in range(N)]  for j in range(N)]
