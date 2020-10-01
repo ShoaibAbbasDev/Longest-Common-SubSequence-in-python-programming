@@ -1,4 +1,4 @@
-
+#LCM in python 
 #dynamic programming  LCS
 # Set Maximum Length Of string
 N = 100
