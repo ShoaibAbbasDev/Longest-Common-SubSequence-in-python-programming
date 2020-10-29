@@ -38,12 +38,12 @@ def LCS(x, y, m, n):
     return L[m][n] 
 
 # main Part
-x=input("Enter String 1 .... ")
-y=input("Enter String 2 .... ")
+x=input("please  Enter String 1 .... ")
+y=input("please Enter String 2 .... ")
 m=len(x)
 n=len(y)
 
-print("The Total length of LCS is  ",LCS(x,y,m,n))
+print("The Total length of LCS is.....    ",LCS(x,y,m,n))
 print("LCS string")
 s=findLCS(x,y,m,n)
 for i in s:
