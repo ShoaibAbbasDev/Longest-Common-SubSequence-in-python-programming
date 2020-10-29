@@ -1,5 +1,5 @@
 
-#dynamic programming 
+# implement least common subsequence using dynamic programming
 
 def lcs(x,y):
     m=len(x)
@@ -15,8 +15,8 @@ def lcs(x,y):
                 L[i][j]=max(L[i-1][j],L[i][j-1])
     return L[m][n]
 
-x=input("Enter String 1 .... ")
-y=input("Enter String 2 .... ")
+x=input("Please Enter String 1 ...... ")
+y=input("Please Enter String 2 ........ ")
 print("The Total length of LCS is  ",lcs(x,y))
 
 
