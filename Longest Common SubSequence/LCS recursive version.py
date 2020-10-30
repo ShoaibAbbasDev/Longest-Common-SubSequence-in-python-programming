@@ -1,4 +1,4 @@
-# recursive version for finding LCM in python
+# recursive LCM algorithum imeplented in python
 def lcs(x,y,m,n):
     if m==0 or n==0:
         return 0;
