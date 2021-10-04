@@ -1,5 +1,7 @@
+'''
 # recursive LCM algorithum imeplented in python
-
+# python LCM recusive algorithm were funtion calling itself many time until finding Longest common subsequence LCM
+'''
 def lcs(x,y,m,n):
     if m==0 or n==0:
         return 0;
