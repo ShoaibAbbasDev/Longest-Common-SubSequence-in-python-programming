@@ -1,5 +1,5 @@
 # recursive LCM algorithum imeplented in python
-#Analysis of Algorithms Assignment
+
 def lcs(x,y,m,n):
     if m==0 or n==0:
         return 0;
