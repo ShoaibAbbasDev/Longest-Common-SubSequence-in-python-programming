@@ -1,4 +1,5 @@
-# huffman coding Algorithm used for file compression
+# huffman coding Algorithm used for file compression. We can design this algorithm for designing file compression tool.
+
 import math
 import sys
 global probabilities
