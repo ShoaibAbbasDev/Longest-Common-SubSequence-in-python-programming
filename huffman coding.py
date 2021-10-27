@@ -1,4 +1,4 @@
-# huffman coding
+# huffman coding Algorithm used for file compression
 import math
 import sys
 global probabilities
