@@ -1,3 +1,4 @@
+# huffman coding
 import math
 import sys
 global probabilities
